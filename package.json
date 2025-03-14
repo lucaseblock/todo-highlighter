@@ -1,6 +1,6 @@
 {
-  "name": "todo-highlighter",
-  "displayName": "TODO Highlighter",
+  "name": "todo-highlighter-pro",
+  "displayName": "TODO Highlighter Pro",
   "description": "Automatically highlights the word TODO in your code.",
   "version": "0.0.1",
   "publisher": "lucasblock",
@@ -15,9 +15,35 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "todo",
+    "todos",
+    "highlight",
+    "highlighter",
+    "marker"
+  ],
   "activationEvents": [
     "onStartupFinished",
-    "onLanguage:*"
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:python",
+    "onLanguage:java",
+    "onLanguage:c",
+    "onLanguage:cpp",
+    "onLanguage:csharp",
+    "onLanguage:php",
+    "onLanguage:ruby",
+    "onLanguage:go",
+    "onLanguage:rust",
+    "onLanguage:html",
+    "onLanguage:css",
+    "onLanguage:scss",
+    "onLanguage:sass",
+    "onLanguage:json",
+    "onLanguage:yaml",
+    "onLanguage:xml",
+    "onLanguage:markdown",
+    "onLanguage:plaintext"
   ],
   "main": "./dist/extension.js",
   "contributes": {
